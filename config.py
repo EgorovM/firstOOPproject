@@ -1,0 +1,18 @@
+# Main
+GAMENAME = "Two portals"
+# Screen config
+WINDOW_SIZE = [640, 480]
+
+# Colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+YELLOW = (255, 255, 0)
+BLUE = (0, 0, 255)
+# Grid
+
+CELL_WIDTH = 60
+CELL_HEIGHT = 60
+
+# Another
