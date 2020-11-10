@@ -33,11 +33,11 @@ while not done:
             if event.key == pygame.K_a:
                 if game.grid[curr_x][curr_y - 1] == 0:
                     player.goLeft()
-                    
+
         if event.type == pygame.MOUSEBUTTONUP:
             x, y = pygame.mouse.get_pos()
             player.shoot(x, y)
-
+    
     game.screen.fill(config.BLACK)
 
     game.drawGrid()
